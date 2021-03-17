@@ -19,16 +19,16 @@ categories = ["development-tools::profiling", "development-tools::debugging"]
 path = "src/lib.rs"
 
 [dependencies]
-tracing = { version = "0.1.13", default-features = false, features = ["log", "std"] }
-tracing-subscriber = { version = "0.2.5", default-features = false, features = ["registry", "fmt"] }
-tracing-log = { version = "0.1" }
-log = "0.4.8"
-serde_json = { version = "1.0.52", features = ["arbitrary_precision"] }
-serde = "1.0.106"
+tracing = { version = "0.1.25", default-features = false, features = ["log", "std"] }
+tracing-subscriber = { version = "0.2.17", default-features = false, features = ["registry", "fmt"] }
+tracing-log = { version = "0.1.2" }
+log = "0.4.14"
+serde_json = { version = "1.0.64", features = ["arbitrary_precision"] }
+serde = "1.0.124"
 gethostname = "0.2.1"
-tracing-core = "0.1.10"
-chrono = "0.4.11"
+tracing-core = "0.1.17"
+chrono = "0.4.19"
 
 [dev-dependencies]
 lazy_static = "1.4.0"
-tracing = { version = "0.1.13", default-features = false, features = ["log", "std", "attributes"] }
+tracing = { version = "0.1.25", default-features = false, features = ["log", "std", "attributes"] }
